@@ -1,5 +1,5 @@
-#Friend Finder
-## Hosting on Heroku
+# Friend Finder
+## [Hosting on Heroku](https://guarded-reef-69111.herokuapp.com/)
 
 ## Table of contents
 * [General info](#general-info)
@@ -20,4 +20,5 @@ This is a Node & Express based web application that helps you to find best match
 * use **Express** to handle routing
 
 ## Setup
+* npm install
 

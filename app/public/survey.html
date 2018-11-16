@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!--  Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="/static/survey.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Survey Questions</h1>
+				<hr>
+				<!-- Create User Profile -->
+				<h5>About You</h5>
+				<form>
+					<div class="form-group">
+						<label for="name"> Your Name(Rquired)</label>
+						<input class="form-control" type="text" id="name" required>
+					</div>
+					<div class="form-group">
+						<label for="photo">Profile Picture URL(Required)</label>
+						<input class="form-control" type="text" id="photo" required>
+					</div>
+				</form>
+
+				<!-- Survey -->
+				<form>
+					<div class="form-group">
+						<!-- question # 1 -->
+						<label for="q1">
+							<h4>Q1: Your mind is always buzzing with unexplored ideas and plans.</h4>
+						</label> 
+						<br>
+						<div class="row">
+							<div class="col-md-2">
+								<p style="color:red; font-size: 10px; text-align:center; padding-top:12px;">Strongly Disagree</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q1" value=1><br>1</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q1" value=2><br>2</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q1" value=3><br>3</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q1" value=4><br>4</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q1" value=5><br>5</p>
+							</div>							
+							<div class="col-md-2">
+								<p style="color:green; font-size:10px; padding-top:12px;">Strongly Agree</p>
+							</div>
+						</div> 
+						<br>
+						<!-- end -->
+						<!-- Question # 2 -->
+						<label for="q2">
+							<h4>Q2: Generally speaking, you rely more on your experience than your imagination.</h4>
+						</label> 
+						<br>
+						<div class="row">
+							<div class="col-md-2">
+								<p style="color:red; font-size: 10px; text-align:center; padding-top:12px;">Strongly Disagree</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q2" value=1><br>1</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q2" value=2><br>2</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q2" value=3><br>3</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q2" value=4><br>4</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q2" value=5><br>5</p>
+							</div>							
+							<div class="col-md-2">
+								<p style="color:green; font-size:10px; padding-top:12px;">Strongly Agree</p>
+							</div>
+						</div> 
+						<br>
+						<!-- end -->
+						<!-- Question # 3 -->
+						<label for="q3">
+							<h4>Q3: You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+						</label> 
+						<br>
+						<div class="row">
+							<div class="col-md-2">
+								<p style="color:red; font-size: 10px; text-align:center; padding-top:12px;">Strongly Disagree</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q3" value=1><br>1</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q3" value=2><br>2</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q3" value=3><br>3</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q3" value=4><br>4</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q3" value=5><br>5</p>
+							</div>							
+							<div class="col-md-2">
+								<p style="color:green; font-size:10px; padding-top:12px;">Strongly Agree</p>
+							</div>
+						</div> 
+						<br>
+						<!-- end -->
+						<!-- Question # 4 -->
+						<label for="q4">
+							<h4>Q4: You rarely do something just out of sheer curiosity.</h4>
+						</label> 
+						<br>
+						<div class="row">
+							<div class="col-md-2">
+								<p style="color:red; font-size: 10px; text-align:center; padding-top:12px;">Strongly Disagree</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q4" value=1><br>1</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q4" value=2><br>2</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q4" value=3><br>3</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q4" value=4><br>4</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q4" value=5><br>5</p>
+							</div>							
+							<div class="col-md-2">
+								<p style="color:green; font-size:10px; padding-top:12px;">Strongly Agree</p>
+							</div>
+						</div> 
+						<br>
+						<!-- end -->
+						<!-- Question # 5 -->
+						<label for="q5">
+							<h4>Q5: People can rarely upset you.</h4>
+						</label> 
+						<br>
+						<div class="row">
+							<div class="col-md-2">
+								<p style="color:red; font-size: 10px; text-align:center; padding-top:12px;">Strongly Disagree</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q5" value=1><br>1</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q5" value=2><br>2</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q5" value=3><br>3</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q5" value=4><br>4</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q5" value=5><br>5</p>
+							</div>							
+							<div class="col-md-2">
+								<p style="color:green; font-size:10px; padding-top:12px;">Strongly Agree</p>
+							</div>
+						</div> 
+						<br>
+						<!-- end -->
+						<!-- Question # 6 -->
+						<label for="q6">
+							<h4>Q6: It is often difficult for you to relate to other people’s feelings.</h4>
+						</label> 
+						<br>
+						<div class="row">
+							<div class="col-md-2">
+								<p style="color:red; font-size: 10px; text-align:center; padding-top:12px;">Strongly Disagree</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q6" value=1><br>1</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q6" value=2><br>2</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q6" value=3><br>3</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q6" value=4><br>4</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q6" value=5><br>5</p>
+							</div>							
+							<div class="col-md-2">
+								<p style="color:green; font-size:10px; padding-top:12px;">Strongly Agree</p>
+							</div>
+						</div> 
+						<br>
+						<!-- end -->
+						<!-- Question # 7 -->
+						<label for="q7">
+							<h4>Q7: In a discussion, truth should be more important than people’s sensitivities.</h4>
+						</label> 
+						<br>
+						<div class="row">
+							<div class="col-md-2">
+								<p style="color:red; font-size: 10px; text-align:center; padding-top:12px;">Strongly Disagree</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q7" value=1><br>1</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q7" value=2><br>2</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q7" value=3><br>3</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q7" value=4><br>4</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q7" value=5><br>5</p>
+							</div>							
+							<div class="col-md-2">
+								<p style="color:green; font-size:10px; padding-top:12px;">Strongly Agree</p>
+							</div>
+						</div> 
+						<br>
+						<!-- end -->
+						<!-- Question # 8 -->
+						<label for="q8">
+							<h4>Q8: You rarely get carried away by fantasies and ideas.</h4>
+						</label> 
+						<br>
+						<div class="row">
+							<div class="col-md-2">
+								<p style="color:red; font-size: 10px; text-align:center; padding-top:12px;">Strongly Disagree</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q8" value=1><br>1</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q8" value=2><br>2</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q8" value=3><br>3</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q8" value=4><br>4</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q8" value=5><br>5</p>
+							</div>							
+							<div class="col-md-2">
+								<p style="color:green; font-size:10px; padding-top:12px;">Strongly Agree</p>
+							</div>
+						</div> 
+						<br>
+						<!-- end -->
+						<!-- Question # 9 -->
+						<label for="q9">
+							<h4>Q9: You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+						</label> 
+						<br>
+						<div class="row">
+							<div class="col-md-2">
+								<p style="color:red; font-size: 10px; text-align:center; padding-top:12px;">Strongly Disagree</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q9" value=1><br>1</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q9" value=2><br>2</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q9" value=3><br>3</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q9" value=4><br>4</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q9" value=5><br>5</p>
+							</div>							
+							<div class="col-md-2">
+								<p style="color:green; font-size:10px; padding-top:12px;">Strongly Agree</p>
+							</div>
+						</div> 
+						<br>
+						<!-- end -->
+						<!-- Question # 10 -->
+						<label for="q10">
+							<h4>Q10: You feel more energetic after spending time with a group of people.</h4>
+						</label> 
+						<br>
+						<div class="row">
+							<div class="col-md-2">
+								<p style="color:red; font-size: 10px; text-align:center; padding-top:12px;">Strongly Disagree</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q10" value=1><br>1</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q10" value=2><br>2</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q10" value=3><br>3</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q10" value=4><br>4</p>
+							</div>
+							<div class="col-md-1">
+								<p><input type="radio" name="q10" value=5><br>5</p>
+							</div>							
+							<div class="col-md-2">
+								<p style="color:green; font-size:10px; padding-top:12px;">Strongly Agree</p>
+							</div>
+						</div> 
+						<br>
+						<!-- end -->	
+						<button class="btn btn-lg btn-info" type="submit" id="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div> 
+	</div>
+	<!-- Modal -->
+	<div id="resultsModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content text-center">
+				<div class="modal-header">
+					<p class="modal-title">Your Best Match</p>
+				</div>
+				<div class="modal-body">
+					<h2 id="matchName"></h2>
+					<img id="matchImg" src="" alt="">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	$('#submit').on('click', function() {
+		event.preventDefault();
+		var userData = {
+			name: $("#name").val(),
+			photo: $("#photo").val(),
+			scores: [
+			$('input[name="q1"]:checked').val(),
+			$('input[name="q2"]:checked').val(),
+			$('input[name="q3"]:checked').val(),
+			$('input[name="q4"]:checked').val(),
+			$('input[name="q5"]:checked').val(),	
+			$('input[name="q6"]:checked').val(),
+			$('input[name="q7"]:checked').val(),
+			$('input[name="q8"]:checked').val(),
+			$('input[name="q9"]:checked').val(),
+			$('input[name="q10"]:checked').val(),	
+			]
+		};
+		console.log(userData);
+
+		var currentURL = window.location.origin;
+		console.log(currentURL);
+
+		$.post(currentURL + "/api/friends", userData, function(data) {
+			$("#matchName").text(data.name);
+			$("#matchImg").attr("src", data.photo);
+			$('#resultsModal').modal("toggle");
+		});
+	});
+	</script>
+
+</body>
+	
+</html>
+		

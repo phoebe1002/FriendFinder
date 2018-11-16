@@ -1,10 +1,13 @@
 # Friend Finder
-## [Hosting on Heroku](https://guarded-reef-69111.herokuapp.com/)
 
 ## Table of contents
+* [Hosting on Heroku](#Hosting-on-Heroku)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+
+## Hosting on Heroku
+* [see here](https://guarded-reef-69111.herokuapp.com/)
 
 ## General info
 This is a Node & Express based web application that helps you to find best match friends. 

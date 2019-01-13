@@ -6,8 +6,8 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-## Hosting on Heroku
-* [see here](https://guarded-reef-69111.herokuapp.com/)
+## Deployment
+* The application is deployed to [Heroku](https://guarded-reef-69111.herokuapp.com/)
 
 ## General info
 This is a Node & Express based web application that helps you to find best match friends. 
@@ -18,9 +18,9 @@ This is a Node & Express based web application that helps you to find best match
 * When the survey is submitted, the app will then display the name and picture of the user with the best overall match. 
 
 ## Technologies
-* **Node.js**
-* **npm** Packages
-* use **Express** to handle routing
+* HTML and Bootstrap
+* JavaScript, jQuery, Node.js, Express.js
+* npm Packages
 
 ## Setup
 * npm install

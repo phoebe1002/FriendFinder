@@ -21,6 +21,7 @@ This is a Node & Express based web application that helps you to find best match
 * HTML, CSS and Bootstrap
 * JavaScript, jQuery, Node.js, Express.js
 * npm
+* Heroku
 
 ## Setup
 * npm install

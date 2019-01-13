@@ -20,7 +20,7 @@ This is a Node & Express based web application that helps you to find best match
 ## Technologies
 * HTML and Bootstrap
 * JavaScript, jQuery, Node.js, Express.js
-* npm Packages
+* npm
 
 ## Setup
 * npm install

@@ -18,7 +18,7 @@ This is a Node & Express based web application that helps you to find best match
 * When the survey is submitted, the app will then display the name and picture of the user with the best overall match. 
 
 ## Technologies
-* HTML and Bootstrap
+* HTML, CSS and Bootstrap
 * JavaScript, jQuery, Node.js, Express.js
 * npm
 
